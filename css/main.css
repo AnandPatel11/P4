@@ -1,0 +1,146 @@
+/*DEVELOPER: Anand Patel, IS117-101, Fall, 2021 */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+.container-fluid{
+    background-color: #f4effb;
+    color: #141432;
+}
+
+.navbar{
+    background-color: #f4effb;
+}
+
+.navbar-brand, .nav-link{
+    color: #141432;
+}
+.navbar-toggler{
+    background-color: #b0a1e7;
+}
+.navbar-toggler-icon{
+    background-color: #141432;
+}
+
+.card, #homepage_contact, .about_me,#objective,#my_journey{
+    background-color: #b0a1e7;
+}
+.jumbotron {
+    background-image: url("../Images/homepage_photo.png");
+    background-size: cover;
+    min-height: 300px;
+}
+
+.card-deck {
+    padding: 30px 0 50px 0;
+}
+
+.card {
+    width: 310px;
+}
+
+.btn {
+    background-color: #141432;
+    color: #b0a1e7;
+    border-color: #141432;
+}
+
+.form-control{
+    width: 460px; /* 460px */
+}
+#message{
+    height: 157px;
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+}
+
+
+.ml-auto{
+    margin-right: 0; !important;
+}
+.navbar-nav > li{
+    padding: 0 20px;
+}
+
+.navbar img{
+    padding: 0 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f4effb;
+    color: #141432;
+    text-align: center;
+    padding: 10px;
+    font-size: .75rem;
+}
+
+
+
+
+/* contact */
+#contact{
+    background-color: #b0a1e7;
+    padding: 20px 50px;
+}
+
+.contact_form {
+    margin: 0 auto;
+    width: 460px;
+}
+
+.button{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#contact h2{
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+
+
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media only screen and (max-width: 600px) {
+    .name, .form-control, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+#homepage_contact h3{
+    text-align: center;
+}
